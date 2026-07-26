@@ -17,7 +17,7 @@
 - 更新包使用独立 EdDSA 密钥签名并通过 HTTPS 分发。
 - 延续 DeepSeek 默认翻译、`⌥E` 中文表达和 Edge Neural TTS 男声。
 ]]></description>
-            <enclosure url="https://xiaowudev.github.io/Read-Frog-Mac-0.3.0.zip" length="1843575" type="application/octet-stream" sparkle:edSignature="tgIyA4p5cwdB95Exu5YvG4g8RehVTxk0R70TZEte2aXEf2MMg7WGX4oCBXPtALL8BgW+eG+CaCbUisqnd3+KCg=="/>
+            <enclosure url="https://xiaowudev.github.io/read-frog-mac-feed/Read-Frog-Mac-0.3.0.zip" length="1843575" type="application/octet-stream" sparkle:edSignature="5v3kcDpXdF4CYBgG0TJrqpHx3BieqdAyNQHC5GFdLMzuifdxyOyDGjbwKuF/MQ82O5RlW1sPpEs607kxjoaJBA=="/>
         </item>
     </channel>
 </rss>
