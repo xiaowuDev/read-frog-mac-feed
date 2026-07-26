@@ -6,6 +6,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Read Frog</title>
         <item>
+            <title>0.4.0</title>
+            <pubDate>Sun, 26 Jul 2026 10:55:54 +0800</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Read Frog Mac 0.4.0
+
+- 增加 PDF、Word DOCX 和 Markdown 文档翻译工作台。
+- 支持左右精读与原文在上、译文在下的双语阅读模式。
+- 文字 PDF 使用 PDFKit；扫描 PDF 使用本机 Vision OCR。
+- 段落批量并发发送给 DeepSeek，失败批次自动拆分重试。
+- 使用 SQLite 翻译记忆跨文档复用相同段落，人工修订也会进入记忆。
+- 支持项目术语表、暂停恢复、断点续译和最近项目。
+- 支持导出双语 PDF 与 Markdown。
+- 延续 Sparkle 自动更新、划词翻译、中文表达和 Edge Neural TTS。
+]]></description>
+            <enclosure url="https://xiaowudev.github.io/read-frog-mac-feed/Read-Frog-Mac-0.4.0.zip" length="2186144" type="application/octet-stream" sparkle:edSignature="Dj7zRXsJD688eQigFnScufGjPD2wKf/M0xFEeqtSZU9taI37p0y7LPtKFlgH7MiG2YBJ6bcBqCcuEZFcekNGDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://xiaowudev.github.io/read-frog-mac-feed/Read%20Frog4-3.delta" sparkle:deltaFrom="3" length="141558" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1SK0VyeeKqGfJ9nZs9kp7lqRaBemkcCclVhW1n6K+nvw/IIHED9A2N6QUnx5+6+MLaqM3zCT3qQrx2Jj8tTLBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.3.0</title>
             <pubDate>Sun, 26 Jul 2026 10:37:17 +0800</pubDate>
             <sparkle:version>3</sparkle:version>
@@ -25,6 +48,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 6tI7+OJv1pAWjy3HwomOONjJeRiICppXzWe5KMRefGxKi/MDkP9yB+1DF6jXSoX02TQTqxHeJJzHNn2kiW2cAg==
-length: 1522
+edSignature: hZ9LTODP/SxZlC+JS4N8LMt9gY9hcplaCDUdNn5+MyG9L/XxrcWB1eS1EZTlvH3Egy4xYqzIfufJOzF3dl0LAg==
+length: 3306
 -->
