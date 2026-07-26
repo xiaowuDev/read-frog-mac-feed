@@ -6,6 +6,58 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Read Frog</title>
         <item>
+            <title>0.6.1</title>
+            <pubDate>Sun, 26 Jul 2026 12:29:54 +0800</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Read Frog Mac 0.6.1
+
+- `⌥D` 划词翻译保存最近 5 条原文与译文，点击历史即可快速恢复。
+- `⌥E` 中文表达分别保存最近 5 条中文输入与生成英文。
+- 历史记录仅保存在本机；相同内容自动更新置顶，第 6 条写入时自动清理最旧记录。
+- 翻译浮窗不再因点击其他应用或窗口外部而消失，只在再次按 `⌥D`、点击关闭或按 `Esc` 时关闭。
+- 新增 `⌥C` 全局快捷键，可复制当前划词译文或中文表达生成的英文。
+
+## 0.6.0
+
+- 全面重写学术 PDF 解析：依据文字坐标、版面栏位和论文语义恢复阅读顺序。
+- 单独识别标题、作者与机构、摘要、关键词、章节、正文、列表、公式、图表说明和参考文献。
+- 删除按固定字符数切块的旧逻辑，长段落保持完整，双栏论文按左栏再右栏阅读。
+- 自动忽略 arXiv 侧栏、页码、页眉和页脚；旧 PDF 项目首次打开时会自动重新解析。
+- 双语阅读改为每页只显示一次页码，并为摘要、关键词、元数据等提供清晰的层级样式。
+- DeepSeek 会接收每个段落的论文语义角色，严格逐块翻译，不合并、不拆分、不总结。
+- 修正双栏论文中的标题/作者分离、左右栏顺序和带年份引用的正文误判。
+- `⌥D` 划词翻译与 `⌥E` 中文表达现在都可再次按下关闭。
+- 两个快捷窗口分别记住最后关闭时的位置，重新唤起后保持原位；显示器变化时会自动移回可见区域。
+
+- 修复“许可未明确”的论文双语阅读按钮看似可点但没有反应。
+- 许可未明确时显示个人本地学习确认页；明确禁止改编时仅允许下载原文。
+- 所有主按钮和次按钮现在会正确呈现禁用状态。
+
+- 新增“探索”：通过 arXiv 官方公开接口搜索可下载论文。
+- 下载原始 PDF 时，同目录保存完整作者、单位、摘要、DOI、分类、许可与来源清单。
+- 仅在论文许可允许衍生作品时开放双语翻译，作者与来源贯穿项目及导出文件。
+- 新增免费的 X 官方嵌入时间线，可查看 OpenAI、Codex、Claude 等公开动态。
+
+- 增加 PDF、Word DOCX 和 Markdown 文档翻译工作台。
+- 支持左右精读与原文在上、译文在下的双语阅读模式。
+- 文字 PDF 使用 PDFKit；扫描 PDF 使用本机 Vision OCR。
+- 段落批量并发发送给 DeepSeek，失败批次自动拆分重试。
+- 使用 SQLite 翻译记忆跨文档复用相同段落，人工修订也会进入记忆。
+- 支持项目术语表、暂停恢复、断点续译和最近项目。
+- 支持导出双语 PDF 与 Markdown。
+- 延续 Sparkle 自动更新、划词翻译、中文表达和 Edge Neural TTS。
+]]></description>
+            <enclosure url="https://xiaowudev.github.io/read-frog-mac-feed/Read-Frog-Mac-0.6.1.zip" length="2549822" type="application/octet-stream" sparkle:edSignature="DugY5bZC2vA0N2Hqu6c9SjEF1+7pEsZiElWQpzDInGC8BF7YCUIZVUrJAAOpyAjucleIE2+r8LTp+yGGe+VUAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://xiaowudev.github.io/read-frog-mac-feed/Read%20Frog8-7.delta" sparkle:deltaFrom="7" length="313510" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OmCisp1TQGTqTb0OTsE5lJHpeBJA1hGai+43adtKl55ntBeRgjcRdh48cYiSef/uWmuOcJkv8IAJqPbGgk/BBw=="/>
+                <enclosure url="https://xiaowudev.github.io/read-frog-mac-feed/Read%20Frog8-4.delta" sparkle:deltaFrom="4" length="594582" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nIgC0WbQguFwjeDL9Vg2RjebIRbsm4yfHnDSVr3WxHXyVC1mrg4J4OA824qrENvxcFj/7Q31y0AF0ZZDOICXCw=="/>
+                <enclosure url="https://xiaowudev.github.io/read-frog-mac-feed/Read%20Frog8-3.delta" sparkle:deltaFrom="3" length="607330" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JdMSGe2dsPniG7qFTntDiPhL2d9sGfzcbiapEMLvPcXRRNI7ejBEsB3gf1CRT3wG5TCT/fK0g9moQRGoR8K3CQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.6.0</title>
             <pubDate>Sun, 26 Jul 2026 12:01:47 +0800</pubDate>
             <sparkle:version>7</sparkle:version>
@@ -71,26 +123,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://xiaowudev.github.io/read-frog-mac-feed/Read%20Frog4-3.delta" sparkle:deltaFrom="3" length="141558" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1SK0VyeeKqGfJ9nZs9kp7lqRaBemkcCclVhW1n6K+nvw/IIHED9A2N6QUnx5+6+MLaqM3zCT3qQrx2Jj8tTLBg=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>0.3.0</title>
-            <pubDate>Sun, 26 Jul 2026 10:37:17 +0800</pubDate>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Read Frog Mac 0.3.0
-
-- 增加 Sparkle 应用内自动更新。
-- 设置页可以开启自动检查与下载，也可以立即检查更新。
-- 菜单栏增加“检查更新…”入口。
-- 更新包使用独立 EdDSA 密钥签名并通过 HTTPS 分发。
-- 延续 DeepSeek 默认翻译、`⌥E` 中文表达和 Edge Neural TTS 男声。
-]]></description>
-            <enclosure url="https://xiaowudev.github.io/read-frog-mac-feed/Read-Frog-Mac-0.3.0.zip" length="2173461" type="application/octet-stream" sparkle:edSignature="Q89SMVBxXElK9sYrXS5r4Ji/psWbOLN+Qiyd3FDwWwBYoPdf5rwjHh3nolefCdJk+ZMjPUGWfzx8e53Wlm7sAA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: sveEBwe2J8/I2SU320O2+2OecmWoOOfUZoEOTSAvcT9lMaspTjkRy7MuI47kBRDyaXJw5zQk3eSDT9fXWgeoAA==
-length: 7137
+edSignature: 8AGQfhGY7oqaIxJ+cfG7CzT7e1lDQ7WNb/sseG/hTYE0kqZAeqz523qomqZSprX0UUw0bMmDjGo1hZAZjDUpBw==
+length: 10784
 -->
