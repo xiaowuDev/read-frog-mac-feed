@@ -1,6 +1,8 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Read Frog</title>
         <item>
@@ -18,10 +20,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 - 更新包使用独立 EdDSA 密钥签名并通过 HTTPS 分发。
 - 延续 DeepSeek 默认翻译、`⌥E` 中文表达和 Edge Neural TTS 男声。
 ]]></description>
-            <enclosure url="https://xiaowudev.github.io/read-frog-mac-feed/Read-Frog-Mac-0.3.0.zip" length="1969544" type="application/octet-stream" sparkle:edSignature="oG6Ptm8HYJIf9t4p+h8xajLjMJbIP2GnS/eeekLFa1IwG0CDAy21Yk41zin7Dn3+0IH7SPWEWUBomOHCaS3ZDA=="></enclosure>
+            <enclosure url="https://xiaowudev.github.io/read-frog-mac-feed/Read-Frog-Mac-0.3.0.zip" length="2173461" type="application/octet-stream" sparkle:edSignature="Q89SMVBxXElK9sYrXS5r4Ji/psWbOLN+Qiyd3FDwWwBYoPdf5rwjHh3nolefCdJk+ZMjPUGWfzx8e53Wlm7sAA=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: PDAooB5ad6ZySZ6i0YPGT38siiTAqd9KdtcbQb3o+QyA0Nzi4/k672eSLGoY+0lnZ8k0KKx7OG1p0bWhbmA/Ag==
-length: 1530
+</rss>
+<!-- sparkle-signatures:
+edSignature: 6tI7+OJv1pAWjy3HwomOONjJeRiICppXzWe5KMRefGxKi/MDkP9yB+1DF6jXSoX02TQTqxHeJJzHNn2kiW2cAg==
+length: 1522
 -->
