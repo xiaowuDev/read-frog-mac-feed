@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Read Frog</title>
+        <item>
+            <title>0.3.0</title>
+            <pubDate>Sun, 26 Jul 2026 10:37:17 +0800</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Read Frog Mac 0.3.0
+
+- 增加 Sparkle 应用内自动更新。
+- 设置页可以开启自动检查与下载，也可以立即检查更新。
+- 菜单栏增加“检查更新…”入口。
+- 更新包使用独立 EdDSA 密钥签名并通过 HTTPS 分发。
+- 延续 DeepSeek 默认翻译、`⌥E` 中文表达和 Edge Neural TTS 男声。
+]]></description>
+            <enclosure url="https://xiaowudev.github.io/Read-Frog-Mac-0.3.0.zip" length="1843575" type="application/octet-stream" sparkle:edSignature="tgIyA4p5cwdB95Exu5YvG4g8RehVTxk0R70TZEte2aXEf2MMg7WGX4oCBXPtALL8BgW+eG+CaCbUisqnd3+KCg=="/>
+        </item>
+    </channel>
+</rss>
